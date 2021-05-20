@@ -1,0 +1,33 @@
+{
+  "package": "me.dev.mexen.api.mixin.mixins",
+  "refmap": "mixin.refmap.json",
+  "required": true,
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "verbose": false,
+  "mixins": [
+    "client.ITimer",
+    "client.MixinMinecraft",
+    "client.MixinPlayerControllerMP",
+    "entity.ICPacketPlayer",
+    "entity.IEntity",
+    "entity.MixinEntity",
+    "entity.MixinEntityPlayer",
+    "entity.MixinEntityPlayerSP",
+    "gui.MixinGuiBossOverlay",
+    "gui.MixinGuiNewChat",
+    "gui.MixinGuiPlayerTab",
+    "gui.MixinGuiScreen",
+    "network.ICPacketUseEntity",
+    "network.ISPacketChat",
+    "network.ISPacketPlayerPosLook",
+    "network.MixinNetworkManager",
+    "render.IEntityRenderer",
+    "render.IRenderManager",
+    "render.MixinBlockRender",
+    "render.MixinEntityRenderer",
+    "render.MixinRenderEnderCrystal",
+    "render.MixinRenderItem",
+    "render.MixinRenderLivingBase"
+  ]
+}
